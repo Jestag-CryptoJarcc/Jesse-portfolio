@@ -220,6 +220,11 @@ def my_projects():
                     <span style="color: var(--muted);">Live weather app</span>
                     <a class="chip" href="https://weather.jestag.com" target="_blank">Open App</a>
                 </div>
+                <div class="link-card">
+                    <strong>Game Hub</strong>
+                    <span style="color: var(--muted);">Mini arcade with login</span>
+                    <a class="chip" href="https://game-hub.jestag.com/register" target="_blank">Create Account</a>
+                </div>
             </div>
 
             <div class="section-title">Smellow's Project</div>
