@@ -194,6 +194,9 @@ def home():
             position: relative;
             overflow-x: hidden;
         }}
+        * {{
+            box-sizing: border-box;
+        }}
         #bg-canvas {{
             position: fixed;
             inset: 0;
@@ -463,12 +466,17 @@ def home():
             }}
             .actions {{
                 flex-direction: column;
+                gap: 8px;
+                align-items: stretch;
             }}
             .btn {{
                 width: 100%;
+                max-width: 260px;
+                margin: 0 auto;
                 justify-content: center;
-                padding: 10px 14px;
-                font-size: 14px;
+                padding: 8px 12px;
+                font-size: 13px;
+                min-height: 36px;
             }}
             .polaroid-grid {{
                 grid-template-columns: 1fr;
