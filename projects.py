@@ -213,6 +213,15 @@ def my_projects():
             <h1>Projects & Socials</h1>
             <p class="lead">A quick index of what I am building and the places I am active.</p>
 
+            <div class="section-title">Featured</div>
+            <div class="grid">
+                <div class="link-card">
+                    <strong>SkyCast Weather</strong>
+                    <span style="color: var(--muted);">Live weather app</span>
+                    <a class="chip" href="https://weather.jestag.com" target="_blank">Open App</a>
+                </div>
+            </div>
+
             <div class="section-title">Smellow's Project</div>
             <div class="grid">
                 <div class="link-card">
