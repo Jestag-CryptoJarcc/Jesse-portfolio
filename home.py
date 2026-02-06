@@ -467,6 +467,8 @@ def home():
             .btn {{
                 width: 100%;
                 justify-content: center;
+                padding: 10px 14px;
+                font-size: 14px;
             }}
             .polaroid-grid {{
                 grid-template-columns: 1fr;
