@@ -223,7 +223,7 @@ def my_projects():
                 <div class="link-card">
                     <strong>Game Hub</strong>
                     <span style="color: var(--muted);">Mini arcade with login</span>
-                    <a class="chip" href="https://game-hub.jestag.com/register" target="_blank">Create Account</a>
+                    <a class="chip" href="https://game-hub.jestag.com/login" target="_blank">Open Login</a>
                 </div>
             </div>
 
