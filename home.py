@@ -445,9 +445,51 @@ def home():
                 justify-content: center;
             }}
         }}
+        @media (max-width: 600px) {{
+            .page {{
+                padding: 28px 16px 48px;
+            }}
+            h1 {{
+                font-size: clamp(26px, 7vw, 36px);
+            }}
+            .hero p {{
+                font-size: 16px;
+            }}
+            .hero-list {{
+                padding-left: 16px;
+            }}
+            .card {{
+                padding: 20px;
+            }}
+            .actions {{
+                flex-direction: column;
+            }}
+            .btn {{
+                width: 100%;
+                justify-content: center;
+            }}
+            .polaroid-grid {{
+                grid-template-columns: 1fr;
+            }}
+            .photo {{
+                height: 170px;
+            }}
+            .polaroid:hover .photo {{
+                height: 200px;
+            }}
+            .footer-row {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }}
+            .footer-right {{
+                text-align: left;
+            }}
+        }}
     </style>
     '''
     return style + f'''
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <canvas id="bg-canvas" aria-hidden="true"></canvas>
     <main class="page">
         <div class="hero">

@@ -180,9 +180,29 @@ def my_projects():
                 transform: translateY(0);
             }}
         }}
+        @media (max-width: 600px) {{
+            .page {{
+                padding: 28px 16px 48px;
+            }}
+            .card {{
+                padding: 20px;
+            }}
+            .grid {{
+                grid-template-columns: 1fr;
+            }}
+            .footer-row {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+            }}
+            .footer-right {{
+                text-align: left;
+            }}
+        }}
     </style>
     '''
     return style + f'''
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <canvas id="bg-canvas" aria-hidden="true"></canvas>
     <main class="page">
         <section class="card">

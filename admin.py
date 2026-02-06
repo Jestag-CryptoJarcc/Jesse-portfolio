@@ -392,6 +392,20 @@ def render_admin_page(content, dark_mode):
             font-size: 11px;
             cursor: pointer;
         }}
+        @media (max-width: 600px) {{
+            body {{
+                padding: 20px 14px 32px;
+            }}
+            .card {{
+                padding: 18px;
+            }}
+            .uploads-grid {{
+                grid-template-columns: 1fr;
+            }}
+            .previews {{
+                grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+            }}
+        }}
         button {{
             padding: 10px 16px;
             border-radius: 999px;
@@ -406,5 +420,6 @@ def render_admin_page(content, dark_mode):
             margin-bottom: 12px;
         }}
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {content}
     '''
