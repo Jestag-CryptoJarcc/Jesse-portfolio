@@ -213,15 +213,6 @@ def my_projects():
             <h1>Projects & Socials</h1>
             <p class="lead">A quick index of what I am building and the places I am active.</p>
 
-            <div class="section-title">Primary</div>
-            <div class="grid">
-                <div class="link-card">
-                    <strong>GitHub</strong>
-                    <span style="color: var(--muted);">Code and experiments</span>
-                    <a class="chip" href="https://github.com/Jestag-CryptoJarcc" target="_blank">Visit GitHub</a>
-                </div>
-            </div>
-
             <div class="section-title">Smellow's Project</div>
             <div class="grid">
                 <div class="link-card">
@@ -257,6 +248,15 @@ def my_projects():
                     <strong>Discord</strong>
                     <span style="color: var(--muted);">Community chat</span>
                     <a class="chip secondary" href="https://discord.gg/cjar" target="_blank">Join Discord</a>
+                </div>
+            </div>
+
+            <div class="section-title">Primary</div>
+            <div class="grid">
+                <div class="link-card">
+                    <strong>GitHub</strong>
+                    <span style="color: var(--muted);">Code and experiments</span>
+                    <a class="chip" href="https://github.com/Jestag-CryptoJarcc" target="_blank">Visit GitHub</a>
                 </div>
             </div>
 
