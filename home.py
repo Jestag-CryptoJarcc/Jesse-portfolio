@@ -523,6 +523,7 @@ def home():
             <div class="actions">
                 <a class="btn" href="/about">About Me</a>
                 <a class="btn secondary" href="/my-projects">My Projects</a>
+                <a class="btn secondary" href="https://crypto-tools.jestag.com/" target="_blank" rel="noopener">Crypto Tools</a>
             </div>
             <div class="mood-board">
                 <div class="board-title">Mood Board</div>

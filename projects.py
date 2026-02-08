@@ -216,6 +216,11 @@ def my_projects():
             <div class="section-title">Featured</div>
             <div class="grid">
                 <div class="link-card">
+                    <strong>Crypto Tools</strong>
+                    <span style="color: var(--muted);">Live crypto toolkit</span>
+                    <a class="chip" href="https://crypto-tools.jestag.com/" target="_blank">Open App</a>
+                </div>
+                <div class="link-card">
                     <strong>SkyCast Weather</strong>
                     <span style="color: var(--muted);">Live weather app</span>
                     <a class="chip" href="https://weather.jestag.com" target="_blank">Open App</a>
